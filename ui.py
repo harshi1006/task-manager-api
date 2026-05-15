@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "[https://harshita1006.pythonanywhere.com](https://harshita1006.pythonanywhere.com)"
 
 st.set_page_config(page_title="Task Manager", page_icon="✅")
 st.title("✅ Task Manager")
