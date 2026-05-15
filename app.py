@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://root:root@localhost:3306/tasks"
+app.config["SQLALCHEMY_DATABASE_URI"] = "mysql://avnadmin:<redacted>@codesync-db-harshitapatni06-85c6.a.aivencloud.com:12459/tasks?ssl-mode=REQUIRED"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db = SQLAlchemy(app)
 
